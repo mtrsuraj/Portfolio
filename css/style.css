@@ -534,10 +534,11 @@ span{
 
 @media(max-width:365px){
     .home-img img{
-        width: 90rem;
+        width: 40rem;
+        height: 30rem;
     }
     .about-img img{
-        width: 90rem;
+        width: 40rem;
     }
     .footer {
         flex-direction: column-reverse;
@@ -547,6 +548,25 @@ span{
         margin-top: 2rem;
     }
 }
+
+/* @media(max-width:320px){
+    .home-img img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .about-img img{
+        width: 20px;
+        height: 20rem;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+} */
+
 
 
 
